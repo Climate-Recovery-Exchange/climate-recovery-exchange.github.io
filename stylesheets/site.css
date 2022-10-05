@@ -457,7 +457,7 @@ h1 {
 }
 
 .text-shadow-md {
-  text-shadow: 0 4px 16px black;
+  text-shadow: 0 4px 8px black;
 }
 
 *, ::before, ::after {
@@ -648,8 +648,16 @@ h1 {
   width: 100vw;
 }
 
+.w-\[80vw\] {
+  width: 80vw;
+}
+
 .min-w-\[120px\] {
   min-width: 120px;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
 }
 
 .resize {
@@ -742,6 +750,10 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+  .lg\:w-\[60vw\] {
+    width: 60vw;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
