@@ -1,0 +1,12 @@
+@layer base {
+  :root {
+    --primary-color: #DE492D;
+  }
+  .banner-text-gradient {
+    background: linear-gradient(132.73deg, #BBBBBB 11.58%, #4D4D4D 42.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+}
