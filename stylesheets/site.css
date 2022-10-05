@@ -456,6 +456,10 @@ h1 {
   font-family: var(--system-ui);
 }
 
+.text-shadow-md {
+  text-shadow: 0 4px 16px black;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -644,6 +648,10 @@ h1 {
   width: 100vw;
 }
 
+.min-w-\[120px\] {
+  min-width: 120px;
+}
+
 .resize {
   resize: both;
 }
@@ -696,6 +704,10 @@ h1 {
   font-weight: 200;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -703,12 +715,6 @@ h1 {
 
 .text-primary-color {
   color: var(--primary-color);
-}
-
-.drop-shadow-lg {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (min-width: 640px) {

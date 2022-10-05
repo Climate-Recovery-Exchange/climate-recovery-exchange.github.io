@@ -9,4 +9,8 @@
     font-family: var(--system-ui);
   }
 
+  .text-shadow-md {
+    text-shadow: 0 4px 16px black;
+  }
+
 }
